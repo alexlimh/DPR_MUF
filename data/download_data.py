@@ -492,39 +492,105 @@ RESOURCES_MAP = {
         's3_url': 'https://vault.cs.uwaterloo.ca/s/RRfYDbzadZXAdkK/download',
         'original_ext': '.dpr',
         'compressed': False,
-        'desc': 'DPR flat index on Trivia-single retriever'
+        'desc': 'DPR flat index on SQuAD-single retriever'
     },
     'indexes.single.squad.flat.index_meta': {
         's3_url': 'https://vault.cs.uwaterloo.ca/s/tADiL6NS3b4EKPC/download',
         'original_ext': '.dpr',
         'compressed': False,
-        'desc': 'DPR flat index on Trivia-single retriever (metadata)'
+        'desc': 'DPR flat index on SQuAD-single retriever (metadata)'
     },
 
     'indexes.single.curated.flat.index': {
         's3_url': 'https://vault.cs.uwaterloo.ca/s/YDxwB6pQxnD2wHD/download',
         'original_ext': '.dpr',
         'compressed': False,
-        'desc': 'DPR flat index on Trivia-single retriever'
+        'desc': 'DPR flat index on CuratedTrec-single retriever'
     },
     'indexes.single.curated.flat.index_meta': {
         's3_url': 'https://vault.cs.uwaterloo.ca/s/kj8ZMdXqkb94RXX/download',
         'original_ext': '.dpr',
         'compressed': False,
-        'desc': 'DPR flat index on Trivia-single retriever (metadata)'
+        'desc': 'DPR flat index on CuratedTrec-single retriever (metadata)'
     },
 
     'indexes.single.wq.flat.index': {
         's3_url': 'https://vault.cs.uwaterloo.ca/s/g7TmjcC8y642osf/download',
         'original_ext': '.dpr',
         'compressed': False,
-        'desc': 'DPR flat index on Trivia-single retriever'
+        'desc': 'DPR flat index on WebQuestions-single retriever'
     },
     'indexes.single.wq.flat.index_meta': {
         's3_url': 'https://vault.cs.uwaterloo.ca/s/K6mX9ZRaYfAbWJK/download',
         'original_ext': '.dpr',
         'compressed': False,
-        'desc': 'DPR flat index on Trivia-single retriever (metadata)'
+        'desc': 'DPR flat index on WebQuestions-single retriever (metadata)'
+    },
+
+    # ivf indexes
+    'indexes.single.nq.recon.index': {
+        's3_url': 'https://vault.cs.uwaterloo.ca/s/r8zKZqeyDsejqPQ/download',
+        'original_ext': '.dpr',
+        'compressed': False,
+        'desc': 'DPR flat index on NQ-single retriever'
+    },
+    'indexes.single.nq.recon.index_meta': {
+        's3_url': 'https://vault.cs.uwaterloo.ca/s/H78R2fFxJarmz4R/download',
+        'original_ext': '.dpr',
+        'compressed': False,
+        'desc': 'DPR ivf index on NQ-single retriever (metadata)'
+    },
+
+    'indexes.single.trivia.recon.index': {
+        's3_url': 'https://vault.cs.uwaterloo.ca/s/esyafG6FLb9zKHN/download',
+        'original_ext': '.dpr',
+        'compressed': False,
+        'desc': 'DPR ivf index on Trivia-single retriever'
+    },
+    'indexes.single.trivia.recon.index_meta': {
+        's3_url': 'https://vault.cs.uwaterloo.ca/s/tnPyYWmp5Wqdqg9/download',
+        'original_ext': '.dpr',
+        'compressed': False,
+        'desc': 'DPR ivf index on Trivia-single retriever (metadata)'
+    },
+
+    'indexes.single.squad.recon.index': {
+        's3_url': 'https://vault.cs.uwaterloo.ca/s/N8gXe9qWM6xyPL4/download',
+        'original_ext': '.dpr',
+        'compressed': False,
+        'desc': 'DPR ivf index on SQuAD-single retriever'
+    },
+    'indexes.single.squad.recon.index_meta': {
+        's3_url': 'https://vault.cs.uwaterloo.ca/s/SibmQgTWoAxyWMK/download',
+        'original_ext': '.dpr',
+        'compressed': False,
+        'desc': 'DPR ivf index on SQuAD-single retriever (metadata)'
+    },
+
+    'indexes.single.curated.recon.index': {
+        's3_url': 'https://vault.cs.uwaterloo.ca/s/3AbEjYx6z7XM4pi/download',
+        'original_ext': '.dpr',
+        'compressed': False,
+        'desc': 'DPR ivf index on CuratedTrec-single retriever'
+    },
+    'indexes.single.curated.recon.index_meta': {
+        's3_url': 'https://vault.cs.uwaterloo.ca/s/NkoqC6SS4HjMGJJ/download',
+        'original_ext': '.dpr',
+        'compressed': False,
+        'desc': 'DPR ivf index on CuratedTrec-single retriever (metadata)'
+    },
+
+    'indexes.single.wq.recon.index': {
+        's3_url': 'https://vault.cs.uwaterloo.ca/s/dAxD5t7tosXpMjt/download',
+        'original_ext': '.dpr',
+        'compressed': False,
+        'desc': 'DPR ivf index on WebQuestions-single retriever'
+    },
+    'indexes.single.wq.recon.index_meta': {
+        's3_url': 'https://vault.cs.uwaterloo.ca/s/8Bxx3SbL4SfJxpQ/download',
+        'original_ext': '.dpr',
+        'compressed': False,
+        'desc': 'DPR ivf index on WebQuestions-single retriever (metadata)'
     },
 }
 

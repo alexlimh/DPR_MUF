@@ -96,7 +96,7 @@ python generate_dense_embeddings.py \
 ```
 This step can also be skipped if you used our pre-encoded queries which are provided in the data download script.
 
-## 3. Build index
+## 3. Building index
 Build `flat` index:
 ```
 python build_index.py --encoded_ctx_file "{path to generated passage embeddings in step 2}" \

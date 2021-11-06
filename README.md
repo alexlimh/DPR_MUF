@@ -1,6 +1,6 @@
 # Multi-Task Dense Retrieval via Model Uncertainty Fusionfor Open-Domain Question Answering
 
-This repo provides a model uncertainty fusion (MUF) solution to multi-task question answering based on [DPR](https://github.com/facebookresearch/DPR). Instead of training a single DPR model on the union of all datasets, we simply train different DPR experts for different tasks and aggregate their predictions using ensemble uncertainty estimation, which allows the users to continually add new models to the current pool. For more details please refer to [our paper]() (upcoming in EMNLP2021).
+This repo provides a model uncertainty fusion (MUF) solution to multi-task question answering based on [DPR](https://github.com/facebookresearch/DPR). Instead of training a single DPR model on the union of all datasets, we simply train different DPR experts for different tasks and aggregate their predictions using ensemble uncertainty estimation, which allows the users to continually add new models to the current pool. For more details please refer to [our paper](https://aclanthology.org/2021.findings-emnlp.26/) (upcoming in EMNLP2021).
 
 Comparison between DPR-multi (joint training) and DPR-MUF on five QA tasks:
 
@@ -237,9 +237,21 @@ Some variable names and classes might be confusing to the readers:
 
 ## Reference
 
-If you find the codes and data useful, please cite this paper (upcoming in EMNLP2021):
+If you find the codes and data useful, please cite this paper:
 ```
-Coming soon!
+@inproceedings{li-etal-2021-multi-task-dense,
+    title = "Multi-Task Dense Retrieval via Model Uncertainty Fusion for Open-Domain Question Answering",
+    author = "Li, Minghan  and
+      Li, Ming  and
+      Xiong, Kun  and
+      Lin, Jimmy",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2021",
+    month = nov,
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-emnlp.26",
+    pages = "274--287",
 ```
 
 and also the original DPR paper:
